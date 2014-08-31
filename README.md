@@ -1,4 +1,4 @@
-ubuntu-14.04
+ubuntu-core:latest
 ============
 
-Ubuntu 14.04 Core Root FS added
+# Ubuntu 14.10 Core
