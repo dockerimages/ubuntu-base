@@ -1,4 +1,4 @@
-ubuntu-core:latest
+ubuntu-core:12.04.5 (latest)
 ============
 
-# Ubuntu 14.10 Core
+See Branch 12.04.5
