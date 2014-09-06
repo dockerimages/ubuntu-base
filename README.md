@@ -1,4 +1,13 @@
-ubuntu-core:latest
+ubuntu-core:13.10 / raring
 ============
 
-# Ubuntu 14.10 Core
+Dockerfile:
+
+    FROM scratch
+    ADD ./ubuntu-core-13.10-core-amd64.tar.gz /
+    ENV LC_ALL C
+    ENV DEBIAN_FRONTEND noninteractive
+    RUN echo 'APT::Install-Recommends "0"; \n\
+    APT::Get::Assume-Yes "true"; \n\
+    APT::Get::force-yes "true"; \n\
+    APT::Install-Suggests "0";' > /etc/apt/apt.conf.d/01buildconfig
