@@ -1,2 +1,2 @@
-FROM dockerimages/ubuntu-core:14.10
+FROM dockerimages/ubuntu-core:14.04.1
 MAINTAINER Frank Lemanschik
