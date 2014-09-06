@@ -11,3 +11,9 @@ Dockerfile:
     APT::Get::Assume-Yes "true"; \n\
     APT::Get::force-yes "true"; \n\
     APT::Install-Suggests "0";' > /etc/apt/apt.conf.d/01buildconfig
+    
+Replace images :D
+
+    docker pull dockerimages/ubuntu-core:14.04.1 \
+    && docker tag dockerimages/ubuntu-core:14.04.1 ubuntu:14.04 \
+    && docker tag dockerimages/ubuntu-core:14.04.1 ubuntu:trusty
