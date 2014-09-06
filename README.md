@@ -1,4 +1,6 @@
-ubuntu-core:latest
+ubuntu-core:latest (14.04.1)
 ============
 
-# Ubuntu 14.10 Core
+Dockerfile:
+
+
