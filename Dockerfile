@@ -1,6 +1,6 @@
-FROM scratch
+FROM ubuntu:14.04
 MAINTAINER Direkt SPEED Europe <frank@dspeed.eu> (irc://SP33D@freenode.org#docker)
-ADD ./ubuntu-core-14.04-core-amd64.tar.gz /
+#ADD ./ubuntu-core-14.04-core-amd64.tar.gz /
 ENV LC_ALL C
 ENV DEBIAN_FRONTEND noninteractive
 RUN echo 'APT::Install-Recommends "0"; \n\
